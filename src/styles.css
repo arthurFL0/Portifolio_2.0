@@ -1,0 +1,150 @@
+
+@media screen and (max-width: 1680px) {
+  html {
+    font-size: 20px !important;
+  }
+
+}
+
+@media screen and (max-width: 1366px) {
+  html {
+    font-size: 18px !important;
+  }
+
+}
+
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 14px !important;
+  }
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.link-style{
+    text-decoration: unset;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border-bottom: 0.2rem solid white;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    width: 9.5rem;
+}
+
+.pointing-selector{
+    gap: 0.5rem;
+}
+
+.pointing-selector div:nth-child(2){
+    align-items: center;
+}
+
+.pointing-selector  div > .link-style {
+    margin-left: 3.2rem;
+}
+.d-flex > .fa-circle-arrow-right{
+    color: #0F1217;
+    border: 0.2rem solid transparent;
+    background:
+     linear-gradient(90deg, #ff6a00, #ee0979) border-box;
+    border-radius: 100%;
+        
+    font-size: 2.2rem;
+}
+
+.section-base{
+    height: 100vh;
+    margin: 0px 10rem;
+}
+
+html{
+    font-size: 23px ;
+}
+
+
+body{
+    background-color: #0F1217;
+    font-family: "Volkhov", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: unset;
+}
+
+main{
+    margin: unset;
+}
+
+
+.tituloGrande{
+    font-size: 4.5rem;
+}
+
+.tituloPequeno{
+    font-size: 2rem;
+}
+
+.boasVindas-text > p{
+    margin: unset;
+}
+
+
+.space-between{
+    justify-content: space-between
+}
+
+
+.justify-center{
+    justify-content: center;
+}
+
+.gap-4{
+    gap: 4rem;
+}
+
+
+.width-100{
+    width: 100%;
+}
+
+.content-center{
+    align-content: center;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.fotoPerfil{
+    width: 15rem;
+    object-fit: contain;
+    border-radius: 30px;
+}
+
+.pointing-hand{
+    width: 4.5rem;
+   
+}
+
+.white-font{
+    color: white;
+}
+
+.fill-disable{
+    -webkit-text-fill-color: initial;
+}
+
+.gradiente-font{
+      background: linear-gradient(90deg, #ff6a00, #ee0979);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+}
