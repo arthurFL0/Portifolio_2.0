@@ -53,7 +53,7 @@ html{
     background:
      linear-gradient(90deg, #ff6a00, #ee0979) border-box;
     border-radius: 100%;
-    transition: transform 0.8s ease; 
+    transition: transform 0.7s ease; 
     transform-origin: center center; 
     font-size: 2.2rem;
 }
@@ -62,6 +62,36 @@ html{
     height: 100vh;
     margin: 0px 10rem;
 }
+
+.section-header{
+    padding-top: 4rem;
+    font-size: 2rem;
+}
+
+.section-header > span {
+    color: white;
+    background-color: black;
+}
+
+.section-header > div > p {
+    margin: unset;
+}
+
+.section-header div:nth-child(2) {
+    background-color: white;
+    width: 20rem;
+    z-index: 1;
+}
+
+.section-header div:nth-child(3) {
+    width: 18rem;
+    background-size: 2rem;
+    background-repeat: round;
+    background-image: url("/img/x.png");
+    margin-left: -1rem;
+}
+
+
 
 html{
     font-size: 23px ;
@@ -105,6 +135,10 @@ main{
 
 .gap-4{
     gap: 4rem;
+}
+
+.pd-2{
+    padding: 1.5rem;
 }
 
 
