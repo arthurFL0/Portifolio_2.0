@@ -84,14 +84,32 @@ html{
 }
 
 .section-header div:nth-child(3) {
-    width: 18rem;
+    width: 25rem;
     background-size: 2rem;
     background-repeat: round;
     background-image: url("/img/x.png");
     margin-left: -1rem;
 }
 
+.section-holder{
+    margin-left: 6rem;
+    margin-top: 1rem;
+}
 
+.info-container{
+    color: white;
+    font-size: 1.2rem;
+    align-items: center;
+}
+
+.info-container > p {
+    padding: 1rem;
+}
+
+.info-container p:nth-child(1) {
+    border-radius: 10px;
+    background-color: #1b1b1b;
+}
 
 html{
     font-size: 23px ;
