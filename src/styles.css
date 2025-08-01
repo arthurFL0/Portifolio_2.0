@@ -20,6 +20,44 @@
 
 }
 
+@media screen and (max-width: 870px) {
+    .margin-base{
+        margin: 0px 5rem !important;
+    }
+}
+
+@media screen and (max-width: 770px) {
+
+
+    .holder-inicio{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 4rem;
+        gap: 2rem;
+    }
+    .fa-circle-arrow-right{
+    display: none !important;
+    }
+    .pointing-selector{
+        flex-direction: row !important;
+        justify-content: center;
+    }
+    .pointing-selector div > .link-style {
+    margin-left: unset !important;
+}
+}
+
+@media screen and (max-width: 570px) { 
+    html{
+            font-size: 12px !important;
+        }
+    .margin-base{
+        margin: 0px 2rem !important;
+    }
+}
+
+
+
 html{
     scroll-behavior: smooth;
 }
@@ -47,6 +85,7 @@ html{
 .pointing-selector  div > .link-style {
     margin-left: 3.2rem;
 }
+
 .d-flex > .fa-circle-arrow-right{
     color: #0F1217;
     border: 0.2rem solid transparent;
@@ -58,19 +97,33 @@ html{
     font-size: 2.2rem;
 }
 
-.section-base{
-    height: 100vh;
+
+
+.margin-base{
     margin: 0px 10rem;
 }
 
+.h-100vh{
+    height: 100vh;
+}
+
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.flex-300{
+    flex: 1 1 300px;
+}
+
 .section-header{
-    padding-top: 4rem;
     font-size: 2rem;
 }
 
 .section-header > span {
     color: white;
     background-color: black;
+    width: 1rem;
 }
 
 .section-header > div > p {
@@ -78,13 +131,14 @@ html{
 }
 
 .section-header div:nth-child(2) {
+    text-align: center;
     background-color: white;
-    width: 20rem;
+    width: 13rem;
     z-index: 1;
 }
 
 .section-header div:nth-child(3) {
-    width: 25rem;
+    width: 30rem;
     background-size: 2rem;
     background-repeat: round;
     background-image: url("/img/x.png");
@@ -92,27 +146,33 @@ html{
 }
 
 .section-holder{
-    margin-left: 6rem;
-    margin-top: 1rem;
+    margin-left: 4rem;
+    margin-top: 3rem;
+    min-height: 20rem;
 }
 
 .info-container{
     color: white;
     font-size: 1.2rem;
+    padding: 1rem;
     align-items: center;
+    gap: 1rem;
 }
 
-.info-container > p {
-    padding: 1rem;
+.info-container  p {
+    margin: unset;
+    
 }
 
 .info-container p:nth-child(1) {
     border-radius: 10px;
     background-color: #1b1b1b;
+    text-align: center;
+    padding: 1rem;
 }
 
 html{
-    font-size: 23px ;
+     font-size: 24px ;
 }
 
 
