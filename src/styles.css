@@ -97,7 +97,23 @@ html{
     font-size: 2.2rem;
 }
 
+.mt-2{
+    margin-top: 2rem;
+}
 
+.info-projetos{
+     border-radius: 10px;
+     width: 85%;
+    background-color: #1b1b1b;
+}
+
+.margin-unset{
+    margin: unset;
+}
+
+.pd-1{
+    padding: 1rem;
+}
 
 .margin-base{
     margin: 0px 10rem;
@@ -148,7 +164,7 @@ html{
 .section-holder{
     margin-left: 4rem;
     margin-top: 3rem;
-    min-height: 20rem;
+    min-height: 30rem;
 }
 
 .info-container{
@@ -164,11 +180,28 @@ html{
     
 }
 
+
+.text-justify{
+    text-align: justify;
+}
+
 .info-container p:nth-child(1) {
     border-radius: 10px;
     background-color: #1b1b1b;
     text-align: center;
     padding: 1rem;
+}
+
+.header-info-projetos{
+    font-size: 1.8rem;
+}
+
+.section-holder .info-projetos:nth-child(n+2){
+    margin-top: 1.5rem;
+}
+
+.info-projetos div:nth-child(1) > img {
+    width: 4rem;
 }
 
 html{
@@ -226,6 +259,10 @@ main{
 
 .content-center{
     align-content: center;
+}
+
+.align-center{
+    align-items: center;
 }
 
 .d-flex{
