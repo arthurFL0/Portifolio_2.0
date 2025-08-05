@@ -107,6 +107,22 @@ html{
     background-color: #1b1b1b;
 }
 
+.info-experiencias{
+     background-color: #1b1b1b;
+    border-radius: 10px;
+     width: 85%;
+}
+
+.info-experiencias > p:nth-child(1){
+    color: white;
+    font-size: 1.8rem;
+}
+
+.logo_Iuul{
+    width: 4.5rem;
+    border-radius: 10px;
+}
+
 .margin-unset{
     margin: unset;
 }
@@ -190,6 +206,11 @@ html{
     background-color: #1b1b1b;
     text-align: center;
     padding: 1rem;
+}
+
+
+.gap-1{
+    gap: 1rem;
 }
 
 .header-info-projetos{
