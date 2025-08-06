@@ -20,13 +20,13 @@
 
 }
 
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 950px) {
     .margin-base{
         margin: 0px 5rem !important;
     }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 800px) {
 
 
     .holder-inicio{
@@ -82,6 +82,7 @@ html{
 
 .pointing-selector{
     gap: 0.5rem;
+    margin-top: -1.2rem;
 }
 
 .pointing-selector div:nth-child(2){
