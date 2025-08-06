@@ -314,6 +314,14 @@ main{
     color: white;
 }
 
+footer{
+    background-color: black;
+    padding: 3.5rem;
+    margin-top: 8rem;
+    font-size: 0.8rem;
+}
+
+
 .fill-disable{
     -webkit-text-fill-color: initial;
 }
