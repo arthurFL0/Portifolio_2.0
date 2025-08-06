@@ -44,7 +44,13 @@
     }
     .pointing-selector div > .link-style {
     margin-left: unset !important;
-}
+    }
+
+    .fotoPerfil{
+        width: 25rem;
+
+    }
+
 }
 
 @media screen and (max-width: 570px) { 
@@ -295,9 +301,8 @@ main{
 }
 
 .fotoPerfil{
-    width: 15rem;
+    width: 20rem;
     object-fit: contain;
-    border-radius: 30px;
 }
 
 .pointing-hand{
